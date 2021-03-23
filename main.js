@@ -228,17 +228,11 @@
     n.r(t);
     var r = n(0),
       o = n.n(r);
-    o()(document.querySelector('#quote-basic')).then(e => {
-      const t = document.querySelector('#quote-basic-btn');
-      t.removeAttribute('disabled'), t.addEventListener('click', e);
-    }),
-      o()(document.querySelector('#quote-markup'), {
+
+      o()(document.querySelector('#txt-rvl'), {
         markup:
-          '<div class="stagger-line"><div class="stagger-line__inner">{slot}</div></div>',
-      }).then(e => {
-        const t = document.querySelector('#quote-markup-btn');
-        t.removeAttribute('disabled'), t.addEventListener('click', e);
-      });
+          '<div class="split_outer"><div class="split_inner">{slot}</div></div>',
+      })
   },
   function(e, t, n) {
     'use strict';
