@@ -229,7 +229,7 @@
     var r = n(0),
       o = n.n(r);
 
-      o()(document.querySelector('#SplitText'), {
+      o()(document.querySelector('#TxtRvl'), {
         markup:
           '<div class="split_outer"><div class="split_inner">{slot}</div></div>',
       })
